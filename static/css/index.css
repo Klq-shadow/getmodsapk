@@ -783,7 +783,7 @@ html {
 }
 
 .max-h-0 {
-    max-height: 0;
+    max-height: 100px;
 }
 
 .min-h-\[50px\] {
@@ -1163,6 +1163,10 @@ html {
 
 .bg-\[\#FFC78520\] {
     background-color: #ffc78520;
+}
+
+.bg-\[\#4F4B4620\] {
+    background-color: #4f4b4620;
 }
 
 .bg-\[\#16d30020\] {
