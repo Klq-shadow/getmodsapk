@@ -10,8 +10,8 @@ var footer = `<div id="back-to-top" title="back to top">
       <span>GETMODSAPK.COM &copy; Copyright 2017-2023. All Right Reserved.</span>
     </div>
     <div class="flex justify-center flex-wrap -mr-6">
-      <a href="" class="font-poppins text-sm mr-6 sm:mb-0 mb-4 text-gray-600 dark:text-gray-100"> Contact Us </a>
-      <a href="" class="font-poppins text-sm mr-6 sm:mb-0 mb-4 text-gray-600 dark:text-gray-100"> DMCA Disclaimer </a>
+      <a href="contactus.html" class="font-poppins text-sm mr-6 sm:mb-0 mb-4 text-gray-600 dark:text-gray-100"> Contact Us </a>
+      <a href="DMCA.html" class="font-poppins text-sm mr-6 sm:mb-0 mb-4 text-gray-600 dark:text-gray-100"> DMCA Disclaimer </a>
     </div>
   </div>
 </div>
