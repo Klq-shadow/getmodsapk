@@ -62,7 +62,7 @@ var header = `<nav class="sticky top-0 z-50 container px-5 mx-auto bg-white dark
         Topics
       </a>
     </li>
-    <li class="nav-item" style="--color: #14c300">
+    <!--<li class="nav-item" style="--color: #14c300">
       <a href="FAQ.html" class="nav-link">
         <div class="icon" style="--tw-gradient-from: #16d300; --tw-gradient-to: #14c300; --tw-shadow-color: #16d300">
           <svg class="svg-inline--fa fa-messages" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="messages" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg>
@@ -71,7 +71,7 @@ var header = `<nav class="sticky top-0 z-50 container px-5 mx-auto bg-white dark
         </div>
         FAQ
       </a>
-    </li>
+    </li>-->
   </ul>
   <ul class="md:block hidden">
     <li class="nav-item" style="margin-right: 0; --color: #ff2e00">

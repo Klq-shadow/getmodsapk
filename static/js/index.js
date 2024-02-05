@@ -144,6 +144,21 @@ document.addEventListener("keyup", function (e) {
       null != e && doSearch();
   }
 });
+
+window.addEventListener("scroll", function () {
+  var backToTop = document.getElementById("back-to-top");
+  if (document.documentElement.scrollTop > 700) {
+    backToTop.classList.add("show");
+    backToTop.addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    });
+  } else {
+    backToTop.classList.remove("show");
+  }
+});
 /*  $(document).ready(function () {
     const e = $("#rateYo"),
       t = e.data("rating"),
