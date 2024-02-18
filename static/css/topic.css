@@ -373,7 +373,8 @@ img {
 
 .apps_wrapper_info .text {
     margin-left: 80px;
-    min-height: 70px
+    min-height: 70px;
+    position: relative;
 }
 
 .apps_wrapper_info .text .title {
@@ -531,7 +532,7 @@ img {
 }
 
 .box-rating {
-    float: right;
+    /* float: right; */
 }
 
 @media (max-width: 500px) {
@@ -566,7 +567,7 @@ img {
     display: block;
     height: 15px;
     width: 75px;
-    float: right
+    /* float: right */
 }
 
 .rating .stars {

@@ -189,3 +189,19 @@ window.addEventListener("scroll", function () {
           });
       });
   }); */
+
+document.addEventListener("DOMContentLoaded", function () {
+  const languageToggle = document.querySelector(".language-toggle");
+  const languageList = document.querySelector(".language-list");
+
+  languageToggle.addEventListener("click", () => {
+    languageList.classList.toggle("show");
+  });
+
+  const languageTogglem = document.querySelector(".language-mtoggle");
+  const languageListm = document.querySelector(".language-mlist");
+
+  languageTogglem.addEventListener("click", () => {
+    languageListm.classList.toggle("show");
+  });
+});
